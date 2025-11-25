@@ -1,0 +1,7 @@
+name: squaremap-residence
+version: "${version}"
+description: "A squaremap implementation for Residence."
+authors: [M0dii]
+main: me.m0dii.squaremap.residence.SquaremapResidence
+api-version: "1.18"
+depend: [Residence, squaremap]
