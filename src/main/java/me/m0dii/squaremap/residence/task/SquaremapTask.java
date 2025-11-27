@@ -64,8 +64,6 @@ public class SquaremapTask extends BukkitRunnable {
         World world = plugin.getServer().getWorld(residence.getWorldName());
         List<String> tooltip = plugin.getSettings().getConfig().getStringList("settings.tooltip.residence");
 
-        System.out.println("Handling residence:" + residence.getName());
-
         int i = 0;
 
         for (CuboidArea region : residence.getAreaArray()) {
