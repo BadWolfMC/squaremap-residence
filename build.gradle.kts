@@ -7,12 +7,12 @@ group = "me.m0dii"
 version = "1.0.1"
 
 java {
-  sourceCompatibility = JavaVersion.VERSION_21
-  targetCompatibility = JavaVersion.VERSION_21
+  sourceCompatibility = JavaVersion.VERSION_25
+  targetCompatibility = JavaVersion.VERSION_25
 }
 
 java {
-  toolchain.languageVersion.set(JavaLanguageVersion.of(21))
+  toolchain.languageVersion.set(JavaLanguageVersion.of(25))
 }
 
 repositories {
@@ -28,7 +28,7 @@ repositories {
 }
 
 dependencies {
-  compileOnly("io.papermc.paper:paper-api:1.21.8-R0.1-SNAPSHOT")
+  compileOnly("io.papermc.paper:paper-api:26.1.2.build.+")
   compileOnly("xyz.jpenilla:squaremap-api:1.1.6")
 
   compileOnly(libs("Residence6.0.1.1.jar"))
