@@ -19,7 +19,7 @@ repositories {
   mavenCentral()
   maven(url = "https://hub.spigotmc.org/nexus/content/repositories/public/")
   maven(url = "https://maven.enginehub.org/repo/")
-  maven{url = "https://jitpack.io")
+  maven { url = uri("https://jitpack.io") }
   maven(url = "https://repo.aikar.co/content/groups/aikar/")
   maven(url = "https://repo.papermc.io/repository/maven-public/")
 
@@ -32,7 +32,7 @@ dependencies {
   compileOnly("io.papermc.paper:paper-api:26.1.2.build.+")
   compileOnly("xyz.jpenilla:squaremap-api:1.1.6")
 
-  compileOnly(libs("Residence6.0.1.8.jar"))
+  compileOnly("com.github.Zrips:Residence:6.0.0.1")
 }
 
 tasks.processResources {
