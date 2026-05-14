@@ -19,6 +19,7 @@ repositories {
   mavenCentral()
   maven(url = "https://hub.spigotmc.org/nexus/content/repositories/public/")
   maven(url = "https://maven.enginehub.org/repo/")
+  maven{url = uri("https://jitpack.io")
   maven(url = "https://repo.aikar.co/content/groups/aikar/")
   maven(url = "https://repo.papermc.io/repository/maven-public/")
 
