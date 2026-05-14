@@ -31,7 +31,7 @@ dependencies {
   compileOnly("io.papermc.paper:paper-api:26.1.2.build.+")
   compileOnly("xyz.jpenilla:squaremap-api:1.1.6")
 
-  compileOnly(libs("Residence6.0.1.1.jar"))
+  compileOnly(libs("Residence6.0.1.8.jar"))
 }
 
 tasks.processResources {
